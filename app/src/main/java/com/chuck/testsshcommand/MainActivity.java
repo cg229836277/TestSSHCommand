@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import java.io.IOException;
-
 public class MainActivity extends Activity {
     private final String TAG = "chuck";
     private String dropbearCommands = "dropbear -d /data/dropbear/dss_host_key -F -E -s -v &";
